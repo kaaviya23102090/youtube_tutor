@@ -1,18 +1,18 @@
-# 🎓 YouTube Tutor AI
+#  YouTube Tutor AI
 
 An AI-powered multi-video learning assistant that:
 - Ingests YouTube videos and stores their transcripts as vectors
 - Clusters multiple videos by topic automatically
 - Answers questions with **exact timestamp citations** so you can jump to the source
 
-## 🚀 Features
+##  Features
 - **Multi-Video Knowledge Base** — paste multiple links; all are searchable together
 - **Timestamp-Aware Retrieval** — every answer links back to the exact video moment
 - **Topic Clustering** — videos auto-grouped by topic using embeddings + KMeans
 - **Persistent Storage** — ChromaDB persists across sessions; no re-ingestion needed
 - **Chat History** — multi-turn conversation with memory
 
-## 📁 Project Structure
+##  Project Structure
 ```
 youtube_tutor/
 ├── app.py                        # Streamlit entry point
@@ -32,7 +32,7 @@ youtube_tutor/
     └── vectorstore/              # ChromaDB persistent storage
 ```
 
-## ⚙️ Setup
+##  Setup
 
 ### 1. Clone / Open project in VS Code
 
@@ -64,10 +64,10 @@ YOUTUBE_API_KEY=AIza...       # Optional but recommended
 streamlit run app.py
 ```
 
-## 🔑 Getting API Keys
+##  Getting API Keys
 
-### OpenAI API Key (Required)
-1. Go to https://platform.openai.com/api-keys
+### GroqAI API Key (Required)
+1. Go to https://platform.groqai.com/api-keys
 2. Create new secret key
 3. Paste into `.env`
 
